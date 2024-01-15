@@ -1,4 +1,7 @@
 function App() {
+    React.useEffect(() => {
+        document.title = "ToDo APP by CAO ZHE";
+    }, []);
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
