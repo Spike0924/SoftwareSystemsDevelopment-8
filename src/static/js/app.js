@@ -1,12 +1,10 @@
 function App() {
-    React.useEffect(() => {
-        document.title = "ToDo APP by CAO ZHE";
-    }, []);
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
+                    <h1>ToDo App by CAO ZHE</h1>
                     <TodoListCard />
                 </Col>
             </Row>
